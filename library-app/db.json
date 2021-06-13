@@ -1,0 +1,88 @@
+{
+    "Teddies": [
+      {
+        "ID": 0,
+        "Name": "Blackbeary",
+        "Img_URL":"./images/Blacbeary.jpg",
+        "Age": 1,
+        "Gender": "Female",
+        "Story": ["Absolutely stunning!", "A beautiful plushy girl.", "Full of beary much love.", "The sweetest of sweet."]
+      },
+      {
+        "ID": 1,
+        "Name": "Brownie",
+        "Img_URL":"./images/Brownie.jpg",
+        "Age": 6,
+        "Gender": "Male",
+        "Story": ["A warm caring bear", "Soft and sweet.", "Full of warm hugs and cuddles."]
+      },
+      {
+        "ID": 2,
+        "Name": "Buttercup",
+        "Img_URL":"./images/Buttercup.jpg",
+        "Age": 5,
+        "Gender": "Female",
+        "Story": ["Beary adorable!", "Loves to be cuddled.", "Is always a pleasure."]
+      },
+      {
+        "ID": 3,
+        "Name": "Butterscotch",
+        "Img_URL":"./images/Butterscotch.jpg",
+        "Age": 3,
+        "Gender": "Female",
+        "Story": ["What a tyke.", "Gives never-ending hugs.", "Will be your best friend."]
+      },
+      {
+        "ID": 4,
+        "Name": "Ebony",
+        "Img_URL":"./images/Ebony.jpg",
+        "Age": 1,
+        "Gender": "Female",
+        "Story": ["A sweetie pie.", "Soft and plushy.", "Will melt your heart in an instant."]
+      },
+      {
+        "ID": 5,
+        "Name": "Fudgecake",
+        "Img_URL":"./images/Fudgecake.jpg",
+        "Age": 7,
+        "Gender": "Male",
+        "Story": ["Give warm chocolatey hugs.", "A super beary loving bear.", "Loves to cuddle."]
+      },
+      {
+        "ID": 6,
+        "Name": "Isis",
+        "Img_URL":"./images/Isis.jpg",
+        "Age": 2,
+        "Gender": "Female",
+        "Story": [
+          "A very beautiful girl.",
+          "Always a joy.",
+          "Brightens everyones day."
+        ]
+      },
+      {
+        "ID": 7,
+        "Name": "Smokey",
+        "Img_URL":"./images/Smokey.jpg",
+        "Age": 4,
+        "Gender": "Male",
+        "Story": ["Always charming.", "Loves lots of hugs.", "Steals your heart in an instant."]
+      },
+      {
+        "ID": 8,
+        "Name": "Strawbeary",
+        "Img_URL":"./images/Strawbeary.jpg",
+        "Age": 3,
+        "Gender": "Female",
+        "Story": ["So sweet just like her name.", "Very Friendly.", "Makes your day special everyday."]
+      },
+      {
+        "ID": 0,
+        "Name": "Tiny",
+        "Img_URL":"./images/Tiny.jpg",
+        "Age": 2,
+        "Gender": "Male",
+        "Story": ["Just adorable!", "The tiniest of them all.", "Super loving.", "Has a big heart in a little bitty package."]
+             }
+        ]
+    }
