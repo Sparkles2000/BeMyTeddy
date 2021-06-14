@@ -26,7 +26,7 @@ function TeddyProfile() {
   return (
     <div className="teddy-profile-container">
       <h2 className="teddy-profile-heading">{teddy.name}</h2>
-      <img className="teddy-profile-img" src={teddy.img_URL} />
+      <img className="teddy-profile-img" src={teddy.imgSrc} />
       <p className="teddy-profile-detail">Age: {teddy.age}</p>
       <p className="teddy-profile-detail">Gender: {teddy.gender}</p>
       <p className="teddy-profile-detail">Story: {teddy.story}</p>
