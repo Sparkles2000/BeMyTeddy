@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Home.css"
-import teddypic from ".//teddypic.jpg"
+import teddypic from "./teddypic.jpg"
 
 function Home() {
   return (

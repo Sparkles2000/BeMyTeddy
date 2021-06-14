@@ -1,9 +1,9 @@
 {
-    "Teddies": [
+    "teddies": [
       {
         "id": 0,
         "name": "Blackbeary",
-        "imgSrc":"./images/Blacbeary.jpg",
+        "image":"./images/Blackbeary.jpg",
         "age": 1,
         "gender": "Female",
         "story": ["Absolutely stunning!", "A beautiful plushy girl.", "Full of beary much love.", "The sweetest of sweet."]
@@ -11,7 +11,7 @@
       {
         "id": 1,
         "name": "Brownie",
-        "imgSrc":"./images/Brownie.jpg",
+        "image":"./images/Brownie.jpg",
         "age": 6,
         "gender": "Male",
         "story": ["A warm caring bear", "Soft and sweet.", "Full of warm hugs and cuddles."]
@@ -19,7 +19,7 @@
       {
         "id": 2,
         "name": "Buttercup",
-        "imgSrc":"./images/Buttercup.jpg",
+        "image":"./images/Buttercup.jpg",
         "age": 5,
         "gender": "Female",
         "story": ["Beary adorable!", "Loves to be cuddled.", "Is always a pleasure."]
@@ -27,7 +27,7 @@
       {
         "id": 3,
         "name": "Butterscotch",
-        "imgSrc":"./images/Butterscotch.jpg",
+        "image":"./images/Butterscotch.jpg",
         "age": 3,
         "gender": "Female",
         "story": ["What a tyke.", "Gives never-ending hugs.", "Will be your best friend."]
@@ -35,7 +35,7 @@
       {
         "id": 4,
         "name": "Ebony",
-        "imgScr":"./images/Ebony.jpg",
+        "image":"./images/Ebony.jpg",
         "age": 1,
         "gender": "Female",
         "story": ["A sweetie pie.", "Soft and plushy.", "Will melt your heart in an instant."]
@@ -43,7 +43,7 @@
       {
         "id": 5,
         "name": "Fudgecake",
-        "imgSrc":"./images/Fudgecake.jpg",
+        "image":"./images/Fudgecake.jpg",
         "age": 7,
         "gender": "Male",
         "story": ["Give warm chocolatey hugs.", "A super beary loving bear.", "Loves to cuddle."]
@@ -51,7 +51,7 @@
       {
         "id": 6,
         "name": "Isis",
-        "imgSrc":"./images/Isis.jpg",
+        "image":"./images/Isis.jpg",
         "age": 2,
         "gender": "Female",
         "story": [
@@ -63,7 +63,7 @@
       {
         "id": 7,
         "name": "Smokey",
-        "imgSrc":"./images/Smokey.jpg",
+        "image":"./images/Smokey.jpg",
         "age": 4,
         "gender": "Male",
         "story": ["Always charming.", "Loves lots of hugs.", "Steals your heart in an instant."]
@@ -71,7 +71,7 @@
       {
         "id": 8,
         "name": "Strawbeary",
-        "imgSrc":"./images/Strawbeary.jpg",
+        "image":"./images/Strawbeary.jpg",
         "age": 3,
         "gender": "Female",
         "story": ["So sweet just like her name.", "Very Friendly.", "Makes your day special everyday."]
@@ -79,7 +79,7 @@
       {
         "id": 0,
         "name": "Tiny",
-        "imgSrc":"./images/Tiny.jpg",
+        "image":"./images/Tiny.jpg",
         "age": 2,
         "gender": "Male",
         "story": ["Just adorable!", "The tiniest of them all.", "Super loving.", "Has a big heart in a little bitty package."]

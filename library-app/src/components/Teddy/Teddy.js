@@ -3,7 +3,7 @@ import "./Teddy.css";
 import { Link } from 'react-router-dom';
 
 function Teddy({ teddy, deleteTeddy, updateTeddy }) {
-  const { id, name, type, breed, age } = teddy
+  const { id, name, age, gender, story } = teddy
 
   function handleAdoptClick() {
     deleteTeddy(id);
