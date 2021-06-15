@@ -70,7 +70,7 @@ function TeddyForm({ addTeddy }) {
             value={formState.breed}
             onChange={handleChange}
           />  <label>
-          type:
+          story:
           <input
             type="text"
             name="type"
