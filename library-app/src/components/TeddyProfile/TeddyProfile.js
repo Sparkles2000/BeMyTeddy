@@ -10,7 +10,7 @@ function TeddyProfile() {
   const id = params.id;
 
   useEffect(() => {
-    const URL = `V${id}`;
+    const URL = `https://teddy-bear-db-api.herokuapp.com/Teddies${id}`;
     fetch(URL)
       .then(r => r.json())
       .then(teddyData => {

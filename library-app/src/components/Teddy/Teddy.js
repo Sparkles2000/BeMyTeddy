@@ -28,7 +28,7 @@ function Teddy({ teddy, deleteTeddy, updateTeddy }) {
   return (
     <div className="teddy">
       <h2>
-        <Link to={`/teddies/${id}`}>{name}</Link>
+        <Link to={`https://teddy-bear-db-api.herokuapp.com/Teddies${id}`}>{name}</Link>
       </h2>
       <div className="Teddy-desc">
         <p>Age: {age}</p>
