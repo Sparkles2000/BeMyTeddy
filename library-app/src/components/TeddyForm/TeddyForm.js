@@ -67,14 +67,14 @@ function TeddyForm({ addTeddy }) {
           <input
             type="text"
             name="gender"
-            value={formState.breed}
+            value={formState.gender}
             onChange={handleChange}
           />  <label>
           story:
           <input
             type="text"
             name="type"
-            value={formState.type}
+            value={formState.story}
             onChange={handleChange}
           />
         </label>
