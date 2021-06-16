@@ -4,7 +4,7 @@ import "./TeddyForm.css"
 function TeddyForm({ addTeddy }) {
   const [formState, setFormState] = useState({
     name: "",
-    imgSrc: "",
+    image: "",
     age: undefined,
     gender: "",
     story: ""
@@ -19,11 +19,11 @@ function TeddyForm({ addTeddy }) {
     })
   }
 
-  function handleSubmit(event) {
+  function handleSubmit(event) { 
     event.preventDefault();
     const teddy = {
       name: formState.name,
-      imgSrc: formState.imgSrc,
+      image: formState.image,
       gender: formState.gender,
       age: parseInt(formState.age),
       story: formState.story,
@@ -45,11 +45,11 @@ function TeddyForm({ addTeddy }) {
           />
         </label>
         <label>
-          imgSrc:
+          image:
           <input
             type="text"
-            name="imgSrc"
-            value={formState.imgSrc}
+            name="image"
+            value={formState.image}
             onChange={handleChange}
           />
         </label>
@@ -73,7 +73,7 @@ function TeddyForm({ addTeddy }) {
           story:
           <input
             type="text"
-            name="type"
+            name="story"
             value={formState.story}
             onChange={handleChange}
           />

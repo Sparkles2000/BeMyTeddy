@@ -3,7 +3,7 @@ import "./TeddyContainer.css"
 import Teddy from '../Teddy/Teddy'
 import TeddyForm from "../TeddyForm/TeddyForm";
 
-const BASE_URL = 'https://teddy-bear-db-api.herokuapp.com/Teddies';
+const BASE_URL = 'https://teddiesdb.herokuapp.com/teddies';
 
 function TeddyContainer() {
   const [teddies, setTeddies] = useState([]);
