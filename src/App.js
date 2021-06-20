@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home/Home";
+import About from "./components/About/About"
 import NavBar from "./components/NavBar/NavBar";
 import TeddyContainer from "./components/TeddyContainer/TeddyContainer";
 import TeddyProfile from "./components/TeddyProfile/TeddyProfile";
@@ -13,6 +14,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/about">
+          <About />
         </Route>
         <Route exact path="/teddies">
           <TeddyContainer />

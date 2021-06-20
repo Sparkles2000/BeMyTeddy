@@ -18,9 +18,9 @@ function Teddy({ teddy, deleteTeddy, updateTeddy }) {
 
   return (
     <div className="teddy"> 
-      <h2> 
-        <Link to={`https://teddy-bear-db-api.herokuapp.com/Teddies${id}`}>{name}</Link>
-      </h2>
+      <h3> 
+        <Link to={`/teddies/${id}`}>{name}</Link>
+      </h3>
       <img src={image} alt={`${image}`} width="90%"/>
       <div className="Teddy-desc">
         <p>Age: {age}</p>

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   .teddy-profile-heading {
@@ -16,4 +17,8 @@
   .teddy-profile-detail {
     font-size: 1.4rem;
     line-height: 1.3;
+  }
+
+  h2 {
+    text-align: center;
   }

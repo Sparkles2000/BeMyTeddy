@@ -2,6 +2,7 @@
     display: flex;
     align-content: center;
     flex-direction: column;
+    color: rgb(161, 18, 18);
     margin: 15px;
   }
   
@@ -15,9 +16,4 @@
   
   .teddy-form button {
     padding: 0px 5px;
-  }
-  
-  .teddy-form h2 {
-    text-align: center;
-    margin-bottom: 15px;
   }

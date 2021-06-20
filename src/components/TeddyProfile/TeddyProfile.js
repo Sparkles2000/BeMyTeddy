@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import "./TeddyProfile.css";
 
-const BASE_URL = 'https://teddy-bear-db-api.herokuapp.com/Teddies'
+const BASE_URL = 'https://dashboard.heroku.com/apps/teddiesdb'
 
 function TeddyProfile() {
   const [teddy, setTeddy] = useState({});
@@ -10,7 +10,7 @@ function TeddyProfile() {
   const id = params.id;
 
   useEffect(() => {
-    const URL = `https://teddy-bear-db-api.herokuapp.com/Teddies${id}`;
+    const URL = `https://dashboard.heroku.com/apps/teddiesdb/${id}`;
     fetch(URL)
       .then(r => r.json())
       .then(teddyData => {

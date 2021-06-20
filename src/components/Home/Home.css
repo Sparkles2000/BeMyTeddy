@@ -19,8 +19,8 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: black;
-    border: 2px solid black;
+    color: rgb(161, 18, 18);
+    border: 2px solid rgb(161, 18, 18);
     padding: 20px;
     transition: all 0.2s linear;
   }
@@ -29,4 +29,8 @@
     font-size: 1.7rem;
     background-color: black;
     color: white;
+  }
+
+  h1 {
+    color:rgb(161, 18, 18);
   }
