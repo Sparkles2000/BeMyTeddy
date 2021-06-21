@@ -33,7 +33,7 @@ function TeddyForm({ addTeddy }) {
 
   return (
     <div className="teddy-form">
-      <h2 className="teddy-form-heading">Give a Teddy</h2>
+      <h2 className="teddy-form-heading">Give A Teddy</h2>
       <form onSubmit={handleSubmit}>
         <label>
           name:
