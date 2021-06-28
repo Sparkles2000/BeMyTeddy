@@ -10,23 +10,24 @@ function TeddyProfile() {
   const id = params.id;
 
   useEffect(() => {
-    const URL = `https://dashboard.heroku.com/apps/teddiesdb/${id}`;
+    const URL =`${BASE_URL}/${id}`;
     fetch(URL)
       .then(r => r.json())
       .then(teddyData => {
         setTeddy(teddyData);
       })
       .catch(err => console.error(err))
-  }, [])
+  }, [id])
 
   useEffect(() => {
     console.log(teddy);
   }, [teddy])
+  
 
   return (
     <div className="teddy-profile-container">
       <h2 className="teddy-profile-heading">{teddy.name}</h2>
-      <img className="teddy-profile-img" src={teddy.imgSrc} />
+      <img className="teddy-profile-img" src={teddy.imgSrc} alt=""/>
       <p className="teddy-profile-detail">Age: {teddy.age}</p>
       <p className="teddy-profile-detail">Gender: {teddy.gender}</p>
       <p className="teddy-profile-detail">Story: {teddy.story}</p>
