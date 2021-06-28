@@ -22,7 +22,6 @@ function TeddyProfile() {
   useEffect(() => {
     console.log(teddy);
   }, [teddy])
-  
 
   return (
     <div className="teddy-profile-container">
