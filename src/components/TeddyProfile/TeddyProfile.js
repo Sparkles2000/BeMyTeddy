@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import "./TeddyProfile.css";
 
-const BASE_URL = 'https://dashboard.heroku.com/apps/teddiesdb'
+const BASE_URL = 'https://teddiesdb.herokuapp.com/teddies'
 
 function TeddyProfile() {
   const [teddy, setTeddy] = useState({});
@@ -26,7 +26,7 @@ function TeddyProfile() {
   return (
     <div className="teddy-profile-container">
       <h2 className="teddy-profile-heading">{teddy.name}</h2>
-      <img className="teddy-profile-img" src={teddy.imgSrc} alt=""/>
+      <img className="teddy-profile-img" src={`${teddy.image}`} alt={`${teddy.image}`} width="90%" />
       <p className="teddy-profile-detail">Age: {teddy.age}</p>
       <p className="teddy-profile-detail">Gender: {teddy.gender}</p>
       <p className="teddy-profile-detail">Story: {teddy.story}</p>
