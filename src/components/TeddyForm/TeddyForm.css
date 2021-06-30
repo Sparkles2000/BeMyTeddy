@@ -17,3 +17,8 @@
   .teddy-form button {
     padding: 0px 5px;
   }
+
+.teddy-form-img {
+  display: flex;
+  align-items: center;
+}
