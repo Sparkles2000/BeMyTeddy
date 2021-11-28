@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import "./TeddyProfile.css";
 
 
-const BASE_URL = 'https://teddiesdb.herokuapp.com/teddies'
+const BASE_URL = 'https://be-my-teddy.herokuapp.com/teddies'
 
 function TeddyProfile() {
   const [teddy, setTeddy] = useState({});
